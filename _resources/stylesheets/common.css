@@ -1,0 +1,14 @@
+/*less file*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@vsublue-prime: #0E5CAB;
+@vsublue-light: #4D8FD1;
+@vsublue-dark: #002345;
+@vsu-white: #F7FBFF;
+
+
+
+@nav-button-background: linear-gradient(145deg, #277cd2, #2068b0);
+@nav-button-shadow: 5px 5px 10px #103458, -5px -5px 10px #38b4ff;
+@button-border:transparent!important;
+@default-hight: 50px;

@@ -1,0 +1,495 @@
+/*less file*/
+@import url('/_resources/stylesheets/common.css');
+
+.hide {
+    display: none !important;    
+}
+.row.custom-menu > button:first-child {
+    display: none;
+}
+button#toggleFullscreen {
+    float: right;
+    height: 50px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #277cd2, #2068b0);
+    box-shadow:  5px 5px 10px #103458, 
+             -5px -5px 10px #38b4ff;
+    border: transparent!important;
+    margin: 8px;
+    color: white;
+    width: 50px;
+}
+button#toggleFullscreen:hover{
+        background: linear-gradient(145deg, #277cd2, #2068b0);
+        box-shadow:  5px 5px 10px #103458, 
+             -5px -5px 10px #38b4ff;
+}
+.custom-menu > form.search input {
+    width: 173px;
+    height: 50px;
+    border-radius: 40px;
+    padding-left: 9px;
+    border: transparent;
+}
+form.search {
+    height: 50px;
+    background: linear-gradient(145deg, #277cd2, #2068b0);
+    box-shadow: 6px 6px 12px #1c5c9b, -6px -6px 12px #2c8ced;
+    border: transparent!important;
+    margin: 8px;
+    border-radius: 30px;
+    right: 132px;
+    float:right;
+}
+button#toggleSearch {
+    float: right;
+    height: 50px;
+    background: linear-gradient(145deg, #277cd2, #2068b0);
+    box-shadow:  5px 5px 10px #103458, 
+             -5px -5px 10px #38b4ff;
+    border: transparent!important;
+    margin: 8px;
+    border-radius: 30px;
+    min-width: 50px;
+    color:white;
+}
+button#toggleSearch:hover {
+    background: linear-gradient(145deg, #044280, #04386c);
+}
+
+form.search {
+    height: 50px;
+    background: linear-gradient(145deg, #277cd2, #2068b0);
+    box-shadow: 6px 6px 12px #1c5c9b, -6px -6px 12px #2c8ced;
+    border: transparent!important;
+    margin: 8px;
+    border-radius: 30px;
+    min-width: 50px;
+}
+span.fas.fa-search, span.fas.fa-expand, span.fas.fa-bars {
+    font-size: 1.2rem;
+}
+
+.custom-menu > form .search-button {
+    background-color: #043E78;
+    color: white;
+    width: 50px;
+    height: 30px;
+    top: 3px;
+    line-height: 30px;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 30px;
+    position: relative;
+}
+.post-container{
+    word-break: break-word;
+}
+#normal-nav button {
+    height: 42px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #2068b0, #277cd2);
+    box-shadow:  5px 5px 10px #103458, 
+                -5px -5px 10px #38b4ff;
+    border: transparent!important;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+#normal-nav button:hover {
+    background: linear-gradient(145deg, #277cd2, #2068b0);
+    box-shadow:  5px 5px 10px #103458, 
+                -5px -5px 10px #38b4ff;
+}
+html{
+    background:#2474C4!important;
+}
+div.sub-menu>ul>li>a {
+    text-transform: uppercase;
+    font-size: 16px!important;
+    font-weight: bold;
+}
+div.sub-menu>ul a, div.sub-menu>ul a:visited {
+    padding-left: 1px!important;
+    padding-right: 1px!important;
+}
+.sub-menu li:hover {
+    border-radius: 20px;
+    background: linear-gradient(145deg, #277cd2, #2068b0);
+    box-shadow:  5px 5px 10px #103458, 
+             -5px -5px 10px #38b4ff;
+}
+
+.sub-menu li {
+    min-height: 50px!important;
+    text-align: center!important;
+    line-height: 50px!important;
+    width: 210px!important;
+}
+#toggleNavigation {
+    float: left;
+}
+html > body div#main-menu.main-menu {
+    display: none !important;    
+}
+div#normal-nav {
+    float: right;
+}
+#top-links{
+    position:relative;
+    float:left;
+    width:100%;
+    margin-bottom:10px;
+}
+div#top-links button {
+    width: 46%;
+    margin: 2%;
+    float: left;
+    text-align: center!important;
+    position: relative;
+    height: 6vh;
+    z-index: 9;
+    border: transparent;
+    color: white;
+border-radius: 18px;
+background: linear-gradient(145deg, #155da5, #196ec4);
+box-shadow:  7px 7px 12px #14589c, 
+             -7px -7px 12px #1a76d2;
+}
+#page-link{
+    width:100%;
+    float:left;
+    position:relative;
+}
+#page-links button {
+    width: 96%;
+    float: left;
+    height: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20px;
+    border-radius: 18px;
+    background: linear-gradient(145deg, #155da5, #196ec4);
+    box-shadow: 7px 7px 12px #14589c, -7px -7px 12px #1a76d2;
+    border:transparent;
+    color:white;
+}
+div#top-links button:hover{
+    border-radius: 18px;
+    background: linear-gradient(145deg, #277cd2, #2068b0);
+    box-shadow: 6px 6px 12px #1c5c9b, -6px -6px 12px #2c8ced;
+    border: transparent!important;
+    color: white;
+}
+div.footer>div.wrapper {
+    position: relative;
+    overflow: visible;
+    background: transparent url(../images/background-footer.png) no-repeat scroll center top;
+    min-height: 130px;
+    background-color: #01305E!important;
+}
+div.footer {
+    padding-top: 45px;
+    border-top: 3px solid #1c4fa7;
+    margin: 0 auto;
+    background-color: #01305E;
+}
+
+div.hero > div.hero-cta > div.hero-panel button {
+    color: #fff;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #ff8727, #d97120);
+    box-shadow: 6px 6px 12px #be641c, 
+                -6px -6px 12px #ff982c;
+    border:transparent;
+    width:250px;
+    height:50px
+}
+html > body div#main.main button{
+    border-radius: 26px;
+    background: #002345;
+    box-shadow:  6px 6px 12px #00101f, 
+             -6px -6px 12px #00366b;
+    color:white;
+    width:250px;
+    height:50px;
+    border:transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    left: 25%;
+    position: relative;
+}
+.assesment{
+    font-size:1.2rem;
+    margin-bottom:15px;
+}
+html > body div#main.main button:hover{
+    color:#F17E24;
+    border-radius: 26px;
+    background: linear-gradient(145deg, #00254a, #00203e);
+    box-shadow:  6px 6px 12px #00101f, 
+             -6px -6px 12px #00366b;
+}
+.custom-menu #normal-nav button{
+    min-width:150px;
+}
+
+
+html > body div.hero form .fa-search:hover, button:hover {
+    cursor: pointer;
+}
+
+html > body div#main.main *, div.hero-panel {
+    font-family: 'Montserrat'!important;
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow: 2px 2px 8px #043E78;
+}
+html > body div#main.main div.content-area > div.inner > div.content > h2, div.hero-panel h1 {
+    font-size: 1.6em !important;
+    color: #ff981a;
+    text-shadow: 2px 2px #043E78;
+}
+
+html > body div#main.main button:hover {
+    cursor: pointer;
+}
+
+
+
+div.main>div.inner>div.wrapper>div.content-area {
+    position: relative;
+    margin-left: 0px!important;
+}
+div.content-area>div.inner {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+body>header div.row.hero {
+    background-image: url('/_resources/images/home/computer-top-down-free.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: #0E5CAB;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #eae8e8 transparent #c9c8c7;
+    outline-style: none;
+    width: 100%;
+    clear: both;
+    min-height: 400px!important;
+    border-bottom-width: 0 !important;
+    text-align: center;
+}
+div.main > div.inner {
+    background:none!important;
+}
+#main.main > .inner:first-child .wrapper .site-title {
+    height: 100px;
+}
+p.site-title > span {
+    vertical-align: bottom !important;
+    padding-bottom: 10px;
+}
+div.content-area .content h1, div.content-area h2, div.content-area h3, div.content-area h4, div.content-area h5, div.content-area h6 {
+    color:#F7FBFF;
+}
+
+.sidebar-item .content h4 {
+    color: #00162B;
+}
+.sidebar-item .content {
+    color: #00162B;
+}
+.wrapper > .site-title > span{
+    display:none;
+}
+div.left-column > div.sub-menu {
+    /*background-color: #0f66bd;
+    padding: 10px 0 5px 10px;
+    border-radius: 10px;
+    box-shadow: 
+        -moz-box-shadow: 5px 5px 5px #0b4d8e;      
+        -webkit-box-shadow: 5px 5px 5px #0b4d8e;  
+        box-shadow: 5px 5px 5px #0b4d8e,           
+        inset 0px 11px 8px -10px #1380ec, 
+        inset 0px -11px 8px -10px #0b4d8e,
+        inset 11px 0 8px -10px #1380ec, 
+        inset -11px 0 8px -10px #0b4d8e; */
+}
+div.sub-menu>ul>li.open, div.sub-menu>ul>li.active{
+    border-radius: 20px!important;
+    background: linear-gradient(145deg, #2068b0, #277cd2)!important;
+    box-shadow: 6px 6px 12px #1c5c9b, -6px -6px 12px #2c8ced!important;
+}
+div.content-area blockquote {
+    background-color: #2b8cee !important;
+    color: #fff !important;
+    text-shadow: 1px 1px #000;
+    box-shadow: 
+        inset 0px 11px 8px -10px #CCC,
+        inset 0px -11px 8px -10px #CCC,
+        inset 7px 0 5px -10px #0E5CAB,
+        inset -7px 0 5px -10px #0E5CAB;
+}
+.vsulogo {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    content: "VSU.edu";
+    color: transparent;
+    top: 6px;
+    background-image: url(/_resources/images/vsu-logo.png);
+    background-repeat: no-repeat;
+    left: 30px;
+    background-size: contain;
+}
+.vsu-schools-link {
+    display: none;
+}
+div.home-link  {
+    text-align: center;
+}
+.main div.wrapper > div.home-link > img {
+    display: none;
+}
+
+.hero-cta {
+    margin: 0;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 87%;
+    background-color: rgba(77, 143, 209, 0.55);
+    z-index: 0;
+}
+.hero-panel {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px #043E78;
+}
+.hero-panel h1{
+    font-size:3.5rem;
+    color:white;
+    text-shadow: 2px 2px 8px #043E78;
+}
+.hero-panel p span {
+    font-weight: bold;
+    font-style: italic;
+}
+@media only screen and (max-width: 960px) {
+.sub-menu-icon a{
+    background:none!important;
+}
+
+div.main > div.inner > div.wrapper > div.left-column {
+    display: none!important;
+    }
+    div#mobile-nav {
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    background-color: rgba(14, 92, 171, .95);
+    z-index: 1;
+    margin: 0;
+    height: 100vh;
+    left: 0px;
+    box-shadow: 5px 3px 10px black;
+    padding-top: 25px;
+}
+}
+@media only screen and (max-width: 400px) {
+
+#main.main > .inner:first-child .wrapper .site-title {
+    display:none;
+}
+#normal-nav{
+    display:none;
+}
+div#mobile-nav {
+    position: absolute;
+    width: 100%;
+    height: 12vh;
+    z-index: 9;
+}
+body .wrapper {
+    margin: 0 0;
+    max-width: 90vw;
+}
+}
+@media only screen and (min-width: 960px) {
+#mobile-nav{
+    display:none;
+}
+}
+@media only screen and (max-width: 960px) {
+    #main.main > .inner:first-child .wrapper .site-title {
+    display:none;
+}
+
+.main .inner .wrapper:first-child img {
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 50px;
+}
+.row.custom-menu > button:first-child {
+    display: block;
+}
+button#toggleFullscreen {
+    height: 50px;
+    background: linear-gradient(145deg, #277cd2, #2068b0);
+    box-shadow: 6px 6px 12px #1c5c9b, 
+            -6px -6px 12px #2c8ced;
+    border:transparent!important;
+    margin:8px;
+}
+#toggleNavigation {
+    height: 50px;
+    background: linear-gradient(145deg, #277cd2, #2068b0);
+    box-shadow: 6px 6px 12px #1c5c9b, -6px -6px 12px #2c8ced;
+    border: transparent!important;
+    margin: 8px;
+    width: 50px;
+    border-radius: 30px;
+    color: white;
+}
+
+#normal-nav{
+    display:none;
+}
+
+.row.custom-menu {
+    width: 100%;
+}
+
+
+div#mobile-nav #page-links button:hover {
+    border-radius: 18px;
+    background: linear-gradient(145deg, #00203e, #00254a);
+    box-shadow: 5px 5px 9px #001b36, -5px -5px 9px #002b54;
+    color: #F28C3D;
+}
+.row.custom-menu {
+    width: 100%;
+    height: 50px;
+    background-image: url(/_resources/images/vsu-logoO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 5px;
+}
+
+.vsulogo{
+    display:none;
+    }
+}
